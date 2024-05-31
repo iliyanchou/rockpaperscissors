@@ -7,7 +7,6 @@
     font-size: 35px;
     font-weight: bold;
     color: whitesmoke;
-    text-align: center;
 }
 
 .buttons {
@@ -15,7 +14,6 @@
     width: 330px;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 auto;
 }
 
 .buttonGame {
@@ -37,14 +35,12 @@
 .status {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
 .stats {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+
 }
 
 .yourMove,
@@ -56,13 +52,11 @@
 .moveText {
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
-    text-align: center;
 }
 
 .score {
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
-    text-align: center;
 }
 
 .resetButton {
@@ -71,56 +65,4 @@
     border: none;
     background-color: whitesmoke;
     cursor: pointer;
-    display: block;
-    margin: 20px auto;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-    .buttons {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-
-    .buttonGame {
-        width: 80px;
-        height: 80px;
-        margin: 10px 0;
-    }
-
-    .yourMove,
-    .computerMove {
-        width: 40px;
-    }
-
-    .stats {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 400px) {
-    .heading {
-        font-size: 28px;
-    }
-
-    .buttonGame {
-        width: 70px;
-        height: 70px;
-    }
-
-    .buttonImg {
-        height: 60%;
-    }
-
-    .yourMove,
-    .computerMove {
-        width: 35px;
-    }
-
-    .resetButton {
-        width: 90px;
-        height: 25px;
-        font-size: 14px;
-    }
 }
